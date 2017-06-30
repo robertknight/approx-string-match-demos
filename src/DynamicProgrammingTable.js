@@ -63,7 +63,7 @@ export default function DynamicProgrammingTable({ text, pattern }) {
       <tr key={-1} className="DynamicProgrammingTable-text">
         <td />
         <td />
-        {range(0, matrix.nCols).map(c =>
+        {range(0, matrix.nCols - 1).map(c =>
           <td key={c}><b>{text.charAt(c)}</b></td>,
         )}
       </tr>
