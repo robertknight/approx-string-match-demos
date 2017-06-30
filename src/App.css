@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-intro {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-settings-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.App-settings-form-item {
+  margin-bottom: 10px;
+}
+
+.App-settings-form-item > label {
+  display: inline-block;
+  min-width: 100px;
+  text-align: left;
+}
+
+.App-settings-form-item > input,
+.App-settings-form-item > select {
+  min-width: 250px;
+}
+

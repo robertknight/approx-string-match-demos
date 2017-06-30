@@ -1,0 +1,35 @@
+.DynamicProgrammingTable {
+  font-family: monospace;
+
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-spacing: 0;
+}
+
+.DynamicProgrammingTable td {
+  padding: 10px;
+}
+
+.DynamicProgrammingTable tr:nth-child(odd) > .DynamicProgrammingTable-cell {
+  background-color: #eee;
+}
+
+.DynamicProgrammingTable-cell:nth-child(odd) {
+  background-color: #eee;
+}
+
+.DynamicProgrammingTable-text {
+  color: white;
+  background-color: #333;
+}
+
+.DynamicProgrammingTable-pattern {
+  color: white;
+  background-color: #333;
+}
+
+.DynamicProgrammingTable-cell.is-best {
+  background-color: #8f8 !important;
+}
