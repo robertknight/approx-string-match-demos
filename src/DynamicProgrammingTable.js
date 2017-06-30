@@ -2,6 +2,7 @@ import React from 'react';
 
 import Matrix from './Matrix';
 import './DynamicProgrammingTable.css';
+import { range } from './util';
 
 function dpSearch(text, pattern) {
   const nCols = text.length + 1;
@@ -39,10 +40,6 @@ function dpSearch(text, pattern) {
     matrix: mat,
     minCostPos,
   };
-}
-
-function range(start, end) {
-  return Array(end - start).fill(0).map((_, i) => i + start);
 }
 
 function isMinCostCol(mat, r, c) {

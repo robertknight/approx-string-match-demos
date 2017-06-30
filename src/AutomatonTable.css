@@ -1,0 +1,30 @@
+.AutomatonTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.AutomatonTable-header-cell {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border: 1px solid white;
+}
+
+.AutomatonTable-cell {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border: 1px solid #999;
+}
+
+.AutomatonTable-cell:not(.is-active) {
+  background-color: #ddd;
+}
+
+.AutomatonTable-cell.is-active {
+  background-color: green;
+}
+
+.AutomatonTable-cell.is-final {
+  border: 3px solid yellow;
+}
